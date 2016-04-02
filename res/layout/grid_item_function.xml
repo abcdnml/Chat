@@ -2,11 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical" >
     
-	<com.aaa.chat.view.CameraSurfaceView 
-	    android:id="@+id/csv_surface"
+	<TextView 
+	    android:id="@+id/item_function_name"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:padding="30dp"
 	    />
 </LinearLayout>

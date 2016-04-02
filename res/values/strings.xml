@@ -4,5 +4,8 @@
     <string name="app_name">Chat</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="function_list">功能列表</string>
+    
+	<string name="function_camera">照相机</string>
+	
 </resources>

@@ -10,15 +10,25 @@
 
 package com.aaa.chat;
 
+import com.aaa.chat.view.CameraSurfaceView;
+
 import android.app.Activity;
 import android.os.Bundle;
 
 public class CameraActivity extends Activity
 {
+	CameraSurfaceView csv;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_camera);
+		initView();
+	}
+
+	private void initView()
+	{
+		csv=(CameraSurfaceView)findViewById(R.id.csv_surface);
 	}
 }
