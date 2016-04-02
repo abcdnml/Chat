@@ -8,7 +8,7 @@
  *   
  */
 
-package com.aaa.chat;
+package com.aaa.chat.view;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -20,13 +20,10 @@ import android.view.SurfaceView;
 public class CameraSurfaceView extends SurfaceView implements PictureCallback,PreviewCallback,SurfaceHolder.Callback
 {
 
-	//
 	public CameraSurfaceView(Context context)
 	{
 		super(context);
 	}
-
-	
 	
 	/**
 	 * 拍照回调
