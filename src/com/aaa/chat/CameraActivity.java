@@ -18,7 +18,7 @@ import android.os.Bundle;
 public class CameraActivity extends Activity
 {
 	CameraSurfaceView csv;
-
+//sda
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
